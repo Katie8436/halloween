@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Happy Halloween</title>
+<link rel="stylesheet" href="css/stylesheet.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Montserrat:wght@100;300;600&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+
+</head>
+
+<section>
+  <img src="images/moon.jpg"  id="moon">
+  <img src="images/bats.png" alt="" id="bats">
+  <img src="images/castle.png" alt="" id="castle">
+  <img src="images/witch.png" alt="" id="witch">
+  <img src="images/wolf.png" alt="" id="wolf">
+</section>
+<div class="sec">
+  <div class="content">
+    <h1>Happy Halloween</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptate assumenda dignissimos dolores minima distinctio cum rem illum amet asperiores quas officia minus possimus, architecto provident, vero odit deleniti a repudiandae molestias rerum commodi ea ex. Eos, ad minus atque. Ut, rem! Sunt fuga cupiditate suscipit similique reiciendis numquam eaque et, animi cum a, tempora ipsum dolorem eos laborum magni praesentium ex! Minus recusandae, provident? Provident ipsam eius iusto blanditiis quisquam, vitae quia, maiores in qui voluptas optio pariatur unde nostrum fuga totam rerum voluptatibus aut nulla ea. Voluptates sint tempora tenetur, voluptate harum, porro cupiditate numquam adipisci hic est placeat sequi ab aut. Illo vel laudantium vitae ipsum assumenda iure magni dolorem incidunt velit architecto, quidem atque maxime porro facilis, delectus ad cumque rerum suscipit aperiam eos sint officia! Libero repellendus, vel praesentium aut culpa velit blanditiis, illum est eos voluptatem maiores reprehenderit eligendi, ducimus porro. Obcaecati, suscipit sapiente sit. Enim eveniet rem consequuntur suscipit, delectus aliquid dolorem. Tempore, repellat culpa quia voluptatibus. Delectus porro esse tenetur blanditiis fugiat doloribus animi voluptatum soluta eaque vitae. Quam porro magni sed ipsam similique hic iure odio tenetur quidem at quaerat, beatae, odit nihil sapiente libero aliquam repellat maxime fugiat autem a iusto aperiam cum, suscipit quis explicabo! Consequatur repellendus provident saepe harum perferendis aliquam cumque quisquam id suscipit at aut maiores qui iste fuga nobis deleniti quidem, molestiae, nostrum odio optio et necessitatibus sed! Eveniet minima, quo, sit deleniti voluptatibus qui quod! Neque quisquam deserunt vero hic omnis provident, eveniet consectetur optio, excepturi id harum suscipit ut ea possimus dignissimos sapiente. Distinctio, optio, quas dicta sunt voluptates molestias quaerat aut illo mollitia accusantium ut, cum similique. Vitae, possimus dolor accusantium distinctio magni reprehenderit tempora impedit vero neque obcaecati quam unde similique porro ex, suscipit laboriosam adipisci corporis ab sapiente molestiae culpa!</p>
+
+  </div>
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.to("#witch", {
+    scrollTrigger : {
+      scrub:0.5,
+    },
+    x : 1500,
+    y : 500,
+  })
+
+
+  gsap.from("#wolf", {
+    scrollTrigger : {
+      scrub:0.5,
+    },
+    x : 400,
+
+  })
+
+  gsap.from("#castle", {
+    scrollTrigger : {
+      scrub:0.5,
+    },
+    x : -100,
+
+  })
+
+
+  gsap.to4("#bats", {
+    scrollTrigger : {
+      scrub:0.5,
+    },
+    scale : 1.5,
+
+  })
+</script>
+
+<body>
+
+</body>
+
+</html>
