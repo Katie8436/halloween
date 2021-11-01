@@ -51,3 +51,9 @@ p {
   line-height: 1.5;
   font-family: consolas;
 }
+
+@media (max-width: 600px) {
+  .content{
+    margin-top: -20px;
+  }
+}
